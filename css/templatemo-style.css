@@ -6575,3 +6575,33 @@ h2.start-count {
   background: #fff;
   height: 7px;
 }
+
+.img-responsive {
+  margin: auto;
+  max-width: 300px;
+}
+
+.nav-main-ss {
+  display: none !important;
+}
+
+@media screen and (min-width: 550px) and (max-width: 770px) {
+  .navbar-brand {
+      font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .navbar-brand {
+      font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .nav-main-ss {
+      display: block !important;
+  }
+  .nav-main {
+      display: none;
+  }
+}
